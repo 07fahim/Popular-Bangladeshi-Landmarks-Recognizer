@@ -1,9 +1,8 @@
 remote_theme: pages-themes/cayman@v0.2.0
+
 plugins:
   - jekyll-remote-theme
 
 title: Popular Bangladeshi Landmarks Recognizer
 description: An image classification API that classifies 16 different types of landmarks of Bangladesh
-
-author:
-  name: Fahim Faiyaz
+author: Fahim Faiyaz
