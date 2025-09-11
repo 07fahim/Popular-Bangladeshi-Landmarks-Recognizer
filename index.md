@@ -29,6 +29,6 @@ This project is a **computer vision** that recognizes **16 Bangladeshi landmarks
 
 </div>
 
-<link rel="stylesheet" href="/css/custom.css">
+<link rel="stylesheet" href="custom.css">
 
 [Go Try It](landmarks_recognizer.html)
