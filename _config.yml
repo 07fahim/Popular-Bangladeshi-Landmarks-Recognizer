@@ -1,0 +1,9 @@
+remote_theme: daviddarnes/alembic@main
+plugins:
+  - jekyll-remote-theme
+
+title: Popular Bangladeshi Landmarks Recognizer
+description: An image classification API that classifies 16 different types of landmarks of Bangladesh
+
+author:
+  name: Fahim Faiyaz

@@ -1,0 +1,39 @@
+---
+title: "Popular Bangladeshi Landmarks Recognizer"
+layout: page
+---
+
+<p>Upload an image of a Bangladeshi landmark.</p>
+
+<input id="photo" type="file" class="upload-btn">
+<div id="results" class="results-box"></div>
+
+<script type="module">
+import { Client } from "https://cdn.jsdelivr.net/npm/@gradio/client/dist/index.min.js";
+
+async function runPrediction(file) {
+    // Connect to your HuggingFace Space
+    const client = await Client.connect("yeager07/popular-bangladeshi-landmark-recognizer");
+
+    // Call the prediction endpoint
+    const result = await client.predict("/recognize_landmark", { 
+        image: file
+    });
+
+    // Extract prediction (adjust index if needed)
+    const prediction = result.data[0].label ?? JSON.stringify(result.data);
+
+    // Show image + prediction in results div
+    document.getElementById("results").innerHTML = `
+        <img src="${URL.createObjectURL(file)}" width="400">
+        <p><b>Prediction:</b> ${prediction}</p>
+    `;
+}
+
+document.getElementById("photo").addEventListener("change", async (event) => {
+    const file = event.target.files[0];
+    if (file) {
+        await runPrediction(file);
+    }
+});
+</script>
