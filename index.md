@@ -9,7 +9,7 @@ This project is a **computer vision** that recognizes **16 Bangladeshi landmarks
 
 ## Features
 
-- Dataset: ~500 images/class
+- Dataset: 500 images/class
 - Models: ResNet50, VGG19, EfficientNetB0, DenseNet121
 - Best model: VGG19
 - Deployment: Gradio + HuggingFace Spaces
@@ -67,23 +67,77 @@ This project is a **computer vision** that recognizes **16 Bangladeshi landmarks
 </details>
 
 <details>
-  <summary><strong>Mahasthangarh</strong></summary>
+  <summary><strong>Jaflong</strong></summary>
   <div class="landmark-group">
-    <img src="/images/mahasthangarh1.jpg" alt="Mahasthangarh">
-    <img src="/images/mahasthangarh2.jpg" alt="Mahasthangarh">
+    <img src="/images/mahasthangarh1.jpg" alt="Jaflong">
+    <img src="/images/mahasthangarh2.jpg" alt="Jaflong">
   </div>
 </details>
 
 <details>
-  <summary><strong>Panam City</strong></summary>
+  <summary><strong>Panam Nagar</strong></summary>
   <div class="landmark-group">
-    <img src="/images/panam1.jpg" alt="Panam City">
-    <img src="/images/panam2.jpg" alt="Panam City">
+    <img src="/images/panam1.jpg" alt="Panam Nagar">
+    <img src="/images/panam2.jpg" alt="Panam Nagar">
   </div>
 </details>
 
-<!-- Repeat the same <details> block for the remaining landmarks -->
-<!-- Just replace the title and image filenames -->
+<details>
+  <summary><strong>Coxs Bazar Sea Beach</strong></summary>
+  <div class="landmark-group">
+    <img src="/images/panam1.jpg" alt="Coxs Bazar Sea Beach">
+    <img src="/images/panam2.jpg" alt="Coxs Bazar Sea Beach">
+  </div>
+</details>
+<details>
+  <summary><strong>Jatiya Sangsad Bhaban</strong></summary>
+  <div class="landmark-group">
+    <img src="/images/panam1.jpg" alt="Jatiya Sangsad Bhaban">
+    <img src="/images/panam2.jpg" alt="Jatiya Sangsad Bhaban">
+  </div>
+</details>
+<details>
+  <summary><strong>Nafakhum Waterfall</strong></summary>
+  <div class="landmark-group">
+    <img src="/images/panam1.jpg" alt="Nafakhum Waterfall">
+    <img src="/images/panam2.jpg" alt="Nafakhum Waterfall">
+  </div>
+</details>
+<details>
+  <summary><strong>Ratargul Swamp Forest</strong></summary>
+  <div class="landmark-group">
+    <img src="/images/panam1.jpg" alt="Ratargul Swamp Forest">
+    <img src="/images/panam2.jpg" alt="Ratargul Swamp Forest">
+  </div>
+</details>
+<details>
+  <summary><strong>Sajek Valley</strong></summary>
+  <div class="landmark-group">
+    <img src="/images/panam1.jpg" alt="Sajek Valley">
+    <img src="/images/panam2.jpg" alt="Sajek Valley">
+  </div>
+</details>
+<details>
+  <summary><strong>Shaheed Minar</strong></summary>
+  <div class="landmark-group">
+    <img src="/images/panam1.jpg" alt="Shaheed Minar">
+    <img src="/images/panam2.jpg" alt="Shaheed Minar">
+  </div>
+</details>
+<details>
+  <summary><strong>St. Martin's Island</strong></summary>
+  <div class="landmark-group">
+    <img src="/images/panam1.jpg" alt="St. Martin's Island">
+    <img src="/images/panam2.jpg" alt="St. Martin's Island">
+  </div>
+</details>
+<details>
+  <summary><strong>Tajhat Palace</strong></summary>
+  <div class="landmark-group">
+    <img src="/images/panam1.jpg" alt="Tajhat Palace">
+    <img src="/images/panam2.jpg" alt="Tajhat Palace">
+  </div>
+</details>
 
 </div>
 
