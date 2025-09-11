@@ -69,7 +69,7 @@ This project is a **computer vision** that recognizes **16 Bangladeshi landmarks
 <details>
   <summary><strong>Jaflong</strong></summary>
   <div class="landmark-group">
-    <img src="assets/images/Jaflong1.jpg" alt="Jaflong">
+    <img src="assets/images/Jaflong1'.jpg" alt="Jaflong">
     <img src="assets/images/Jaflong2.jpg" alt="Jaflong">
   </div>
 </details>
@@ -78,7 +78,7 @@ This project is a **computer vision** that recognizes **16 Bangladeshi landmarks
   <summary><strong>Panam Nagar</strong></summary>
   <div class="landmark-group">
     <img src="assets/images/panam1.jpg" alt="Panam Nagar">
-    <img src="assets/images/panam2.jpg" alt="Panam Nagar">
+    <img src="assets\images\panam2'.jpg" alt="Panam Nagar">
   </div>
 </details>
 
