@@ -21,8 +21,8 @@ This project is a **computer vision** that recognizes **16 Bangladeshi landmarks
 <details>
   <summary><strong>Sundarbans Mangrove Forest</strong></summary>
   <div class="landmark-group">
-    <img src="/images/sundarbans1.jpg" alt="Sundarbans Mangrove Forest">
-    <img src="/images/sundarbans2.jpg" alt="Sundarbans Mangrove Forest">
+    <img src="assets/images/sundarbans1.jpg" alt="Sundarbans Mangrove Forest">
+    <img src="assets/images/sundarbans2.jpg" alt="Sundarbans Mangrove Forest">
   </div>
 </details>
 
