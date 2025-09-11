@@ -1,0 +1,45 @@
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.landmark-group {
+  text-align: center;
+}
+.landmark-group img {
+  max-width: 200px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.landmark-group img:hover { transform: scale(1.05); }
+
+.upload-btn {
+  background: #007acc;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+.upload-btn:hover { background: #005fa3; }
+
+.results-box {
+  margin-top: 25px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background: white;
+  display: inline-block;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+.results-box img {
+  border-radius: 10px;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
