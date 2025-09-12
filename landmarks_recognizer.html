@@ -12,19 +12,13 @@ layout: default
 <script type="module">
 import { Client } from "https://cdn.jsdelivr.net/npm/@gradio/client/dist/index.min.js";
 
-async function runPrediction(file) {
-    // Connect to your HuggingFace Space
+async function runPrediction(file) {e
     const client = await Client.connect("yeager07/popular-bangladeshi-landmark-recognizer");
-
-    // Call the prediction endpoint
     const result = await client.predict("/recognize_landmark", { 
         image: file
     });
 
-    // Extract prediction (adjust index if needed)
     const prediction = result.data[0].label ?? JSON.stringify(result.data);
-
-    // Show image + prediction in results div
     document.getElementById("results").innerHTML = `
         <img src="${URL.createObjectURL(file)}" width="400">
         <p><b>Identified Landmark:</b> ${prediction}</p>

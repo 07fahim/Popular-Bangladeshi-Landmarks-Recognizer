@@ -141,4 +141,4 @@ This project is a **computer vision** that recognizes **16 Bangladeshi landmarks
 
 </div>
 
-[Go Try It](landmarks_recognizer.html)
+<a href="landmarks_recognizer.html" class="btn-link">Launch Demo</a>
