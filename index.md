@@ -3,9 +3,6 @@ title: Home
 layout: default
 ---
 
-<!--
-<link rel="stylesheet" href="custom.css"> -->
-
 # Popular Bangladeshi Landmarks Recognizer
 
 This project is a **computer vision** that recognizes **16 Bangladeshi landmarks** (historical & natural).
@@ -144,4 +141,4 @@ This project is a **computer vision** that recognizes **16 Bangladeshi landmarks
 
 </div>
 
-<a href="landmarks_recognizer.html" class="btn-link">Check It Out</a>
+[Go Try It](landmarks_recognizer.html)
