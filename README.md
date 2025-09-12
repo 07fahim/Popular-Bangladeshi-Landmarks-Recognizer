@@ -40,7 +40,7 @@ _Notebooks available in_ `notebooks/data_prep.ipynb`.
 - Used **FastAI’s `ImageClassifierCleaner`** to manually verify & fix mislabeled or irrelevant samples.
 - Cleaning was done **once**, after which all models were trained on the **clean dataset**.
 
-_Details in_ `notebooks/cleaning.ipynb`.
+_Details in_ `notebooks/data_cleaning.ipynb`.
 
 ---
 
