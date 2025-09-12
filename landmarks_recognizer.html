@@ -2,9 +2,9 @@
 title: "Popular Bangladeshi Landmarks Recognizer"
 layout: default
 ---
+<link rel="stylesheet" href="custom.css">
 
-
-<p>Upload an image of a Bangladeshi landmark.</p>
+<p>Please select a picture of a landmark in Bangladesh for recognition.</p>
 
 <input id="photo" type="file" class="upload-btn">
 <div id="results" class="results-box"></div>
@@ -27,7 +27,7 @@ async function runPrediction(file) {
     // Show image + prediction in results div
     document.getElementById("results").innerHTML = `
         <img src="${URL.createObjectURL(file)}" width="400">
-        <p><b>Prediction:</b> ${prediction}</p>
+        <p><b>Identified Landmark:</b> ${prediction}</p>
     `;
 }
 
