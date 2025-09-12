@@ -16,9 +16,9 @@ The model can classify **16 different Bangladeshi landmarks** (historical and na
 7. Kantajew Temple (Dinajpur)
 8. Panam City (Sonargaon)
 9. Tajhat Palace (Rangpur)
-10. Cox’s Bazar Sea Beach
-11. St. Martin’s Island
-12. Sundarbans Mangrove Forest
+10. Cox’s Bazar Sea Beach (Chittagong)
+11. St. Martin’s Island (Teknaf)
+12. Sundarbans Mangrove Forest (Khulna)
 13. Jaflong (Sylhet)
 14. Ratargul Swamp Forest (Sylhet)
 15. Sajek Valley (Rangamati)
