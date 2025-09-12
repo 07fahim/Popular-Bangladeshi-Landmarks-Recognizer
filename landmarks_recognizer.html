@@ -4,9 +4,12 @@ layout: default
 ---
 <link rel="stylesheet" href="custom.css">
 
-<p>Please select a picture of a landmark in Bangladesh for recognition.</p>
+<div class="upload-section">
+  <p>Please select a picture of a landmark in Bangladesh for recognition.</p>
+  <input id="photo" type="file" accept="image/*" style="display: none;">
+  <label for="photo" class="upload-btn">Upload Image</label>
+</div>
 
-<input id="photo" type="file" class="upload-btn">
 <div id="results" class="results-box"></div>
 
 <script type="module">
