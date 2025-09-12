@@ -16,9 +16,9 @@ The model can classify **16 different Bangladeshi landmarks** (historical and na
 7. Kantajew Temple (Dinajpur)
 8. Panam City (Sonargaon)
 9. Tajhat Palace (Rangpur)
-10. Cox’s Bazar Sea Beach
-11. St. Martin’s Island
-12. Sundarbans Mangrove Forest
+10. Cox’s Bazar Sea Beach (Chittagong)
+11. St. Martin’s Island (Teknaf)
+12. Sundarbans Mangrove Forest (Khulna)
 13. Jaflong (Sylhet)
 14. Ratargul Swamp Forest (Sylhet)
 15. Sajek Valley (Rangamati)
@@ -119,7 +119,7 @@ _Comparison results in_ `notebooks/Test Evaluation.ipynb`.
 - Deployed the best model with **Gradio + HuggingFace Spaces**.
 - Try it here 👉 [Live Demo](https://huggingface.co/spaces/yeager07/popular-bangladeshi-landmark-recognizer)
 
-<img src="deployment/demo.png" width="700" height="350">
+<img src="deployment/demo.png" width="900" height="450">
 
 ---
 
@@ -137,15 +137,17 @@ Check it here 👉 [GitHub Pages Site](https://07fahim.github.io/Popular-Banglad
 
 ---
 
-## Project Structure
+# Bangladeshi-Landmarks
 
+```
 Bangladeshi-Landmarks/
-│── notebooks/ # Jupyter notebooks (cleaning, training, evaluation)
-│── deployment/ # Gradio app + HuggingFace deployment
-│── docs/ # GitHub Pages website (index.md, config, assets)
-│── models/ # Trained models (.pkl, .pth)
-│── data/ # dataset
-│── README.md # Project documentation
+│── notebooks/          # Jupyter notebooks (cleaning, training, evaluation)
+│── deployment/         # Gradio app + HuggingFace deployment
+│── docs/              # GitHub Pages website (index.md, config, assets)
+│── models/            # Trained models (.pkl, .pth)
+│── data/              # dataset
+│── README.md          # Project documentation
+```
 
 ### End-to-End Pipeline
 
