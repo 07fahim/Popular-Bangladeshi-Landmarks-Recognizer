@@ -3,7 +3,7 @@ title: Home
 layout: default
 ---
 
-<link rel="stylesheet" href="docs\assets\css\custom.css">
+<link rel="stylesheet" href="E:/Popular-Bangladeshi-Landmarks-Recognizer/docs/assets/css/custom.css">
 # Popular Bangladeshi Landmarks Recognizer
 
 This project is a **computer vision** that recognizes **16 Bangladeshi landmarks** (historical & natural).
