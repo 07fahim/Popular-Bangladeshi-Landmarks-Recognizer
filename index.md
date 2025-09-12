@@ -3,7 +3,8 @@ title: Home
 layout: default
 ---
 
-<link rel="stylesheet" href="custom.css">
+<!--
+<link rel="stylesheet" href="custom.css"> -->
 
 # Popular Bangladeshi Landmarks Recognizer
 
