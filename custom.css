@@ -24,7 +24,7 @@ details summary {
   border-radius: 6px;
   margin: 5px 0;
 }
-/*Custom styles for the landmark recognizer page*/
+
 body {
     font-family: "Poppins", sans-serif;
     background-color: #f9fafb;
@@ -63,7 +63,7 @@ body {
     font-weight: 600;
     color: #333;
 }
-/* .btn-link {
+.btn-link {
     display: inline-block;
     padding: 12px 20px;
     background: #4caf50;
@@ -85,4 +85,4 @@ body {
 .btn-link:active {
     transform: translateY(0);
     box-shadow: 0 3px 6px rgba(0,0,0,0.2);
-} */
+}
