@@ -119,7 +119,7 @@ _Comparison results in_ `notebooks/Test Evaluation.ipynb`.
 - Deployed the best model with **Gradio + HuggingFace Spaces**.
 - Try it here 👉 [Live Demo](https://huggingface.co/spaces/yeager07/popular-bangladeshi-landmark-recognizer)
 
-<img src="deployment/demo.png" width="700" height="350">
+<img src="deployment/demo.png" width="900" height="450">
 
 ---
 
