@@ -139,13 +139,15 @@ Check it here 👉 [GitHub Pages Site](https://07fahim.github.io/Popular-Banglad
 
 # Bangladeshi-Landmarks
 
+```
 Bangladeshi-Landmarks/
-│── notebooks/ # Jupyter notebooks (cleaning, training, evaluation)
-│── deployment/ # Gradio app + HuggingFace deployment
-│── docs/ # GitHub Pages website (index.md, config, assets)
-│── models/ # Trained models (.pkl, .pth)
-│── data/ # dataset
-│── README.md # Project documentation
+│── notebooks/          # Jupyter notebooks (cleaning, training, evaluation)
+│── deployment/         # Gradio app + HuggingFace deployment
+│── docs/              # GitHub Pages website (index.md, config, assets)
+│── models/            # Trained models (.pkl, .pth)
+│── data/              # dataset
+│── README.md          # Project documentation
+```
 
 ### End-to-End Pipeline
 
