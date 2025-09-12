@@ -12,7 +12,7 @@ layout: default
 <script type="module">
 import { Client } from "https://cdn.jsdelivr.net/npm/@gradio/client/dist/index.min.js";
 
-async function runPrediction(file) {e
+async function runPrediction(file) {
     const client = await Client.connect("yeager07/popular-bangladeshi-landmark-recognizer");
     const result = await client.predict("/recognize_landmark", { 
         image: file
