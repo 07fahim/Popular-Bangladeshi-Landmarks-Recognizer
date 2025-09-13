@@ -109,6 +109,8 @@ Final evaluation on test set:
 - Deployed the best model with Gradio + HuggingFace Spaces.
 - **Try it here** 👉 [Live Demo](https://huggingface.co/spaces/yeager07/popular-bangladeshi-landmark-recognizer)
 
+<img src="deployment/demo.png" width="900" height="450">
+
 ## 🌐 API & GitHub Pages Integration
 Built a companion GitHub Pages website:
 - `index.md` → project description
