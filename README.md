@@ -14,8 +14,6 @@
 - [API & GitHub Pages Integration](#api--github-pages-integration)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
-  - [Try the Live Demo](#try-the-live-demo)
-  - [Use the GitHub Pages Website](#use-the-github-pages-website)
   - [Run Locally with Gradio](#run-locally-with-gradio)
   - [Train Models Locally](#train-models-locally)
   - [API Integration](#api-integration)
@@ -138,14 +136,6 @@ Dataset collection → Cleaning → Model training → Evaluation → Best model
 
 ## Usage
 
-### Try the Live Demo
-1. Visit the [HuggingFace Spaces demo](https://huggingface.co/spaces/yeager07/popular-bangladeshi-landmark-recognizer).
-2. Upload an image of a Bangladeshi landmark to receive an instant prediction.
-
-### Use the GitHub Pages Website
-1. Go to the [GitHub Pages site](https://07fahim.github.io/Popular-Bangladeshi-Landmarks-Recognizer/).
-2. Use the web interface to upload an image and get a prediction from the Gradio API.
-
 ### Run Locally with Gradio
 1. **Clone the repository**:
    ```bash
@@ -157,7 +147,7 @@ Dataset collection → Cleaning → Model training → Evaluation → Best model
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-   pip install fastai==2.7.12 torch>=1.13.0 gradio>=4.0.0 jupyter
+   pip install fastai==2.8.4 gradio==5.44.1
    ```
 
 3. **Ensure the trained model** (`VGG19_bn.pkl`) is in the `models/` folder.
@@ -198,8 +188,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Thanks to the open-source community for the amazing tools and libraries!
 
 ## Badges
+
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)  
 [![FastAI](https://img.shields.io/badge/FastAI-2.x-green.svg)](https://docs.fast.ai/)  
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.13+-ee4c2c.svg)](https://pytorch.org/)  
 [![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace-yellow.svg)](https://huggingface.co/spaces/yeager07/popular-bangladeshi-landmark-recognizer)  
-[![Gradio](https://img.shields.io/badge/Gradio-4.x-orange.svg)](https://gradio.app/)
+[![Gradio](https://img.shields.io/badge/Gradio-4.x-orange.svg)](https://gradio.app/)  
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-blue.svg)](https://github.com/07fahim/Popular-Bangladeshi-Landmarks-Recognizer)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
