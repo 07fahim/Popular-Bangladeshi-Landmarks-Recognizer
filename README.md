@@ -123,7 +123,7 @@ Users can upload an image → API returns prediction directly on the site.
 ## Project Structure
 ```
 Bangladeshi-Landmarks/
-│── notebooks/          # Jupyter notebooks (cleaning, training, evaluation)
+│── notebooks/          # Jupyter notebooks (cleaning, training, evaluation,inference)
 │── deployment/         # Gradio app + HuggingFace deployment
 │── docs/              # GitHub Pages website (index.md, config, assets)
 │── models/            # Trained models (.pkl, .pth)
@@ -164,6 +164,7 @@ Dataset collection → Cleaning → Model training → Evaluation → Best model
 2. Clean the dataset using `notebooks/data_cleaning.ipynb` with FastAI's `ImageClassifierCleaner`.
 3. Train models using `notebooks/training.ipynb` (GPU recommended).
 4. Evaluate performance with `notebooks/Test Evaluation.ipynb` to view confusion matrices and classification reports.
+5. Instead of retraining load the pretrained model directly using,`notebooks/Inference.ipynb`  for quick predictions:
 
 ### API Integration
 Use the Gradio API hosted on HuggingFace Spaces for predictions in your application:
