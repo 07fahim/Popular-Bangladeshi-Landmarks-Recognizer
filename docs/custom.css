@@ -125,6 +125,27 @@ body {
   box-shadow: 0 3px 6px rgba(0,0,0,0.2);
 }
 
+/* ===== Navigation Button (Blue) ===== */
+.nav-btn {
+  display: inline-block;
+  padding: 14px 24px;
+  background: #0078D7;   /* Blue */
+  color: white !important;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: #005fa3;   /* Darker blue */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+}
+
+
 /* ===== Details Summary ===== */
 details summary {
   cursor: pointer;

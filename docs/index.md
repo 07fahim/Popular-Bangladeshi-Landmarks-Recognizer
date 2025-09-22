@@ -15,6 +15,8 @@ This project is a **computer vision** that recognizes **16 Bangladeshi landmarks
 - Best model: VGG19
 - Deployment: Gradio + HuggingFace Spaces
 
+<a href="landmarks_recognizer.html" class="btn-link">Check It Out</a>
+
 ## Landmark Gallery
 
 <div class="gallery-container">
@@ -141,5 +143,3 @@ This project is a **computer vision** that recognizes **16 Bangladeshi landmarks
 </details>
 
 </div>
-
-<a href="landmarks_recognizer.html" class="btn-link">Check It Out</a>

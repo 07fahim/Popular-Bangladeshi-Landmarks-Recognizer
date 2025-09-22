@@ -1,17 +1,20 @@
 import gradio as gr
 from fastai.vision.all import *
 
-
-model = load_learner("models/vgg19_bn_v2.pkl")  
-
+# Load trained model
+model = load_learner("models/vgg19_bn_v2.pkl")
 
 def recognize_landmark(image):
     pred, idx, probs = model.predict(image)
+    
+    # Sort probabilities (descending) and take top 5
     top_probs = sorted(
         zip(model.dls.vocab, map(float, probs)),
         key=lambda x: x[1],
         reverse=True
-    )
+    )[:5]
+    
+    # Convert to dict for Gradio Label
     label_dict = {cls: float(prob) for cls, prob in top_probs}
     top_pred = pred
     return label_dict, top_pred
@@ -21,9 +24,8 @@ with gr.Blocks() as demo:
     
     gr.Markdown(
         """
-        # Popular Bangladeshi Landmarks Recognizer  
-        Upload an image of a **Bangladeshi landmark**.
-       
+        # 🏛️ Popular Bangladeshi Landmarks Recognizer  
+        Upload an image of a **Bangladeshi landmark** and get the **Top 5 predictions**.
         """
     )
 
@@ -33,36 +35,32 @@ with gr.Blocks() as demo:
             predict_btn = gr.Button("🔍 Classify")
         
         with gr.Column():
-            gr.Markdown("### Prediction Results")
-            label_output = gr.Label(label="Class Probabilities (All 16 Classes)")
+            gr.Markdown("### 🔮 Prediction Results")
+            label_output = gr.Label(label="Top 5 Class Probabilities")
             top_pred_text = gr.Textbox(label="Most Likely Landmark", interactive=False)
 
-    # ------------------------
     # Example Images
-    # ------------------------
     examples = [
-        ["test_image1.jpg"],
-        ["test_image2.jpg"],
-        ["test_image3.jpg"],
-        ["test_image4.jpg"],
-        ["test_image5.jpg"],
-        ["test_image6.jpg"],
-        ["test_image7.jpg"],
-        ["test_image8.jpg"],
-        ["test_image9.jpg"],
-        ["test_image10.jpg"],
-        ["test_image11.jpg"],
-        ["test_image12.jpg"],
-        ["test_image13.jpg"],
-        ["test_image14.jpg"],
-        ["test_image15.jpeg"],
-        ["test_image16.jpg"]
+        ["assets/images/test_image1.jpg"],
+        ["assets/images/test_image2.jpg"],
+        ["assets/images/test_image3.jpg"],
+        ["assets/images/test_image4.jpg"],
+        ["assets/images/test_image5.jpg"],
+        ["assets/images/test_image6.jpg"],
+        ["assets/images/test_image7.jpg"],
+        ["assets/images/test_image8.jpg"],
+        ["assets/images/test_image9.jpg"],
+        ["assets/images/test_image10.jpg"],
+        ["assets/images/test_image11.jpg"],
+        ["assets/images/test_image12.jpg"],
+        ["assets/images/test_image13.jpg"],
+        ["assets/images/test_image14.jpg"],
+        ["assets/images/test_image15.jpeg"],
+        ["assets/images/test_image16.jpg"]
     ]
     gr.Examples(examples=examples, inputs=image_input)
 
-    # ------------------------
     # Button Action
-    # ------------------------
     predict_btn.click(
         fn=recognize_landmark,
         inputs=image_input,
