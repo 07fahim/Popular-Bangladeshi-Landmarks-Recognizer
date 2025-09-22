@@ -4,18 +4,22 @@ body {
   background-color: #f9fafb;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
-/* ===== Nav Bar Alignment ===== */
-.nav-bar {
-  width: 100%;
-  display: flex;
-  justify-content: center;   /* Center the buttons */
-  align-items: center;
-  gap: 15px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+/* ===== Upload Button (Green) ===== */
+.upload-btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.upload-btn:hover {
+  background: #45a049;
 }
 
 /* ===== Navigation Button (Blue) ===== */
@@ -38,33 +42,56 @@ body {
   box-shadow: 0 6px 12px rgba(0,0,0,0.25);
 }
 
-/* ===== Upload Button (Green) ===== */
-.upload-btn {
-  padding: 12px 20px;
-  border-radius: 8px;
-  background: #4caf50;
-  color: white;
-  cursor: pointer;
-  border: none;
-  font-weight: bold;
-  font-size: 16px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  transition: all 0.3s ease;
+/* ===== Upload Section ===== */
+.upload-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px; 
+  gap: 15px;
+  width: 90%;
+  max-width: 1200px; 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
 }
 
-.upload-btn:hover {
-  background: #45a049;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
-}
-
-/* ===== Upload Instruction Text ===== */
-.upload-text {
-  font-size: 18px;
-  font-weight: 500;
+.upload-section p {
+  font-size: 18px; 
+  font-weight: 500; 
   color: #333;
-  margin-top: 10px;
-  margin-bottom: 0;
+  margin: 0;
+}
+
+/* ===== Gallery Styles ===== */
+.gallery-container {
+  margin-top: 30px;
+  width: 95%;
+  max-width: 1400px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.landmark-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+.landmark-group img {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.landmark-group img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
 }
 
 /* ===== Results Box ===== */
@@ -91,4 +118,39 @@ body {
   font-size: 18px;
   font-weight: 600;
   color: #333;
+}
+
+/* ===== Links as Buttons (Generic Green) ===== */
+.btn-link {
+  display: inline-block;
+  padding: 14px 24px;
+  background: #4caf50;
+  color: white !important;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+.btn-link:hover {
+  background: #388e3c;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+}
+
+.btn-link:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+/* ===== Details Summary ===== */
+details summary {
+  cursor: pointer;
+  padding: 10px 12px;
+  background: #f2f2f2;
+  border-radius: 8px;
+  margin: 8px 0;
+  font-weight: 500;
 }
