@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-/* ===== Upload Button ===== */
+/* ===== Upload Button (Green) ===== */
 .upload-btn {
   padding: 12px 20px;
   border-radius: 8px;
@@ -20,6 +20,26 @@ body {
 
 .upload-btn:hover {
   background: #45a049;
+}
+
+/* ===== Navigation Button (Blue) ===== */
+.nav-btn {
+  display: inline-block;
+  padding: 14px 24px;
+  background: #0078D7;   /* Blue */
+  color: white !important;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: #005fa3;   /* Darker blue */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
 }
 
 /* ===== Upload Section ===== */
@@ -100,7 +120,7 @@ body {
   color: #333;
 }
 
-/* ===== Links as Buttons ===== */
+/* ===== Links as Buttons (Generic Green) ===== */
 .btn-link {
   display: inline-block;
   padding: 14px 24px;
@@ -124,27 +144,6 @@ body {
   transform: translateY(0);
   box-shadow: 0 3px 6px rgba(0,0,0,0.2);
 }
-
-/* ===== Navigation Button (Blue) ===== */
-.nav-btn {
-  display: inline-block;
-  padding: 14px 24px;
-  background: #0078D7;   /* Blue */
-  color: white !important;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 10px;
-  text-decoration: none;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  transition: all 0.3s ease;
-}
-
-.nav-btn:hover {
-  background: #005fa3;   /* Darker blue */
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
-}
-
 
 /* ===== Details Summary ===== */
 details summary {
