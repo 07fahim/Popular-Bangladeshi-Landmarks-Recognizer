@@ -4,18 +4,16 @@ layout: default
 ---
 <link rel="stylesheet" href="custom.css">
 
+<div class="upload-section">
+  <p>Please select a picture of a landmark in Bangladesh for recognition.</p>
 
-<!-- Upload Text -->
-<p class="upload-text">Please select a picture of a landmark in Bangladesh for recognition.</p>
-
-<!-- Navigation Bar with Buttons -->
-<div class="nav-bar">
-  <a href="index.html" class="nav-btn">Back to Home</a>
-  <label for="photo" class="upload-btn">Upload Image</label>
-  <input id="photo" type="file" accept="image/*" style="display: none;">
+  <div class="button-row">
+    <input id="photo" type="file" accept="image/*" style="display: none;">
+    <label for="photo" class="upload-btn">Upload Image</label>
+    <a href="index.html" class="home-btn">Back to Home</a>
+  </div>
 </div>
 
-<!-- Results -->
 <div id="results" class="results-box"></div>
 
 <script type="module">
