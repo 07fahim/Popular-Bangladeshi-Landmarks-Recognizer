@@ -135,7 +135,7 @@ Final evaluation on the **held-out test set** included:
 - Deployed the best model with Gradio + HuggingFace Spaces.
 - **Try it here** 👉 [Live Demo](https://huggingface.co/spaces/yeager07/popular-bangladeshi-landmark-recognizer)
 
-<img src="deployment/demo.png" width="900" height="450">
+<img src="deployment/assets/images/demo.png" width="900" height="450">
 
 ## 🌐 API & GitHub Pages Integration
 
@@ -149,6 +149,9 @@ Built a companion GitHub Pages website:
 Users can upload an image → API returns prediction directly on the site.
 
 **Check it here** 👉 [GitHub Pages Site](https://07fahim.github.io/Popular-Bangladeshi-Landmarks-Recognizer/)
+
+<img src="docs/assets/images/demo1.png" width="900" height="450">
+<img src="docs/assets/images/demo2.png" width="900" height="450">
 
 ## Project Structure
 
