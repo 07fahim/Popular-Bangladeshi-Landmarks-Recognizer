@@ -10,9 +10,9 @@ This project is a **computer vision** that recognizes **16 Bangladeshi landmarks
 
 ## Features
 
-- Dataset: 500 images/class
+- Dataset: 1050 images/class
 - Models: ResNet50, VGG19, EfficientNetB0, DenseNet121
-- Best model: VGG19
+- Best model: DenseNet121
 - Deployment: Gradio + HuggingFace Spaces
 
 <a href="landmarks_recognizer.html" class="btn-link">Check It Out</a>

@@ -2,7 +2,7 @@ import gradio as gr
 from fastai.vision.all import *
 
 # Load trained model
-model = load_learner("models/vgg19_bn_v2.pkl")
+model = load_learner("models/densenet121_v2.pkl")
 
 def recognize_landmark(image):
     pred, idx, probs = model.predict(image)
