@@ -219,7 +219,7 @@ result = client.predict(image="path/to/your/image.jpg")
 print(result)  # Predicted landmark
 ```
 
-Check `docs/landmarks_recognizer.html` for the client-side JavaScript implementation.
+Check `docs/landmarks_recognizer.html` for the client-side implementation.
 
 ## License
 
